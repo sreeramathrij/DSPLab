@@ -5,12 +5,12 @@ time_range = float(input("Enter the time range for the triangular wave (e.g., 5(
 frequency = float(input("Enter the frequency of the triangular wave: "));
 amplitude = float(input("Enter the amplitude of the triangular wave: "));
 t = np.linspace(-time_range, time_range, 1000);
-n = np.linspace(-time_range, time_range, 60);
+n = np.linspace(-time_range, time_range, 150);
 
 T = 1 / frequency
 
-triangular_t = 2 * amplitude * np.abs(2 * (-((t + T / 4) / T) + np.floor(((t + T / 4)/ T) + 0.5))) - amplitude;
-triangular_n = 2 * amplitude * np.abs(2 * (-((n + T / 4) / T) + np.floor(((n + T / 4) / T) + 0.5))) - amplitude;
+triangular_t = amplitude - 2 * amplitude * np.abs(2*((t - T / 4) / T - np.floor((t - T / 4) / T + 0.5)))
+triangular_n = amplitude - 2 * amplitude * np.abs(2*((n - T / 4) / T - np.floor((n - T / 4) / T + 0.5)))
 
 fig, a = plt.subplots(2, 1);
 
