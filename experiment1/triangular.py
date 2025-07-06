@@ -9,12 +9,12 @@ n = np.linspace(-time_range, time_range, 60);
 
 T = 1 / frequency
 
-triangle_test = 2 * amplitude * np.abs(-((t/T) + np.floor(t/T) + 0.5)) - amplitude;
 triangular_t = 2 * amplitude * np.abs(2 * (-((t + T / 4) / T) + np.floor(((t + T / 4)/ T) + 0.5))) - amplitude;
 triangular_n = 2 * amplitude * np.abs(2 * (-((n + T / 4) / T) + np.floor(((n + T / 4) / T) + 0.5))) - amplitude;
+
 fig, a = plt.subplots(2, 1);
 
-a[0].plot(t, triangle_test, label="Triangular Waveform", color="blue")
+a[0].plot(t, triangular_t, label="Triangular Waveform", color="blue")
 a[0].set_title("Triangular Waveform");
 a[0].set_xlabel("Time");
 a[0].set_ylabel("Amplitude");
