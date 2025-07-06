@@ -25,4 +25,5 @@ a[1].set_xlabel("Time");
 a[1].set_ylabel("Amplitude");
 a[1].grid(True);
 
+plt.tight_layout();
 plt.show();

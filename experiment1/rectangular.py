@@ -13,16 +13,17 @@ rect_n = np.where(np.abs(n) < value, amplitude, 0);
 
 fig, a = plt.subplots(2, 1);
 
-a[0].plot(t, rect_t, label="Bipolar Waveform", color="blue")
-a[0].set_title("Bipolar Waveform");
+a[0].plot(t, rect_t, label="Rectangular Waveform", color="blue")
+a[0].set_title("Rectangular Waveform");
 a[0].set_xlabel("Time");
 a[0].set_ylabel("Amplitude");
 a[0].grid(True);
 
-a[1].stem(n, rect_n, label="Bipolar Waveform")
-a[1].set_title("Bipolar Waveform (Discrete)");
+a[1].stem(n, rect_n, label="Rectangular Waveform")
+a[1].set_title("Rectangular sWaveform (Discrete)");
 a[1].set_xlabel("Time");
 a[1].set_ylabel("Amplitude");
 a[1].grid(True);
 
+plt.tight_layout();
 plt.show();

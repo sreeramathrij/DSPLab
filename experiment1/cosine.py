@@ -13,16 +13,17 @@ sine_n = np.cos(2 * frequency * np.pi * n ) * amplitude;
 
 fig, a = plt.subplots(2, 1);
 
-a[0].plot(t, sine_t, label="Bipolar Waveform", color="blue")
-a[0].set_title("Bipolar Waveform");
+a[0].plot(t, sine_t, label="Cosine Waveform", color="blue")
+a[0].set_title("Cosine Waveform");
 a[0].set_xlabel("Time");
 a[0].set_ylabel("Amplitude");
 a[0].grid(True);
 
-a[1].stem(n, sine_n, label="Bipolar Waveform")
-a[1].set_title("Bipolar Waveform (Discrete)");
+a[1].stem(n, sine_n, label="Cosine Waveform")
+a[1].set_title("Cosine Waveform (Discrete)");
 a[1].set_xlabel("Time");
 a[1].set_ylabel("Amplitude");
 a[1].grid(True);
 
+plt.tight_layout();
 plt.show();
