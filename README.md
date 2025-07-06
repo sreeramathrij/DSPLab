@@ -54,7 +54,7 @@ To plot sine, cosine, ramp, exponential, impulse, rectangular, bipolar pulse and
 | `exponential.py`| Generates an exponential signal    |
 
 ## 📐 Signal Equations
-
+<img src="assets/experiment1eq.png" alt="sin" />
 You can view all LaTeX-rendered signal quations in the [DSP_Signal_Equations.ipynb](DSP_Signal_Equations.ipynb) notebook.
 
 ## 📷 Example Outputs
