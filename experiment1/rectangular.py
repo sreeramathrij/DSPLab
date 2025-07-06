@@ -20,7 +20,7 @@ a[0].set_ylabel("Amplitude");
 a[0].grid(True);
 
 a[1].stem(n, rect_n, label="Rectangular Waveform")
-a[1].set_title("Rectangular sWaveform (Discrete)");
+a[1].set_title("Rectangular Waveform (Discrete)");
 a[1].set_xlabel("Time");
 a[1].set_ylabel("Amplitude");
 a[1].grid(True);

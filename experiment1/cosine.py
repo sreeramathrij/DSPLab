@@ -1,9 +1,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-time_range = float(input("Enter the time range for the sine wave (e.g., 5(for -5 to 5)): "));
-amplitude = float(input("Enter the amplitude of the sine wave: "));
-frequency = float(input("Enter the frequency of the sine wave (in Hz): "));
+time_range = float(input("Enter the time range for the cosine wave (e.g., 5(for -5 to 5)): "));
+amplitude = float(input("Enter the amplitude of the cosine wave: "));
+frequency = float(input("Enter the frequency of the cosine wave (in Hz): "));
 
 t = np.linspace(-time_range, time_range, 1000);
 n = np.linspace(-time_range, time_range, 200);
