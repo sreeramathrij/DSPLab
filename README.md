@@ -55,21 +55,49 @@ To plot sine, cosine, ramp, exponential, impulse, rectangular, bipolar pulse and
 
 ## 📐 Signal Equations
 <img src="assets/experiment1eq.png" alt="sin" />
-You can view all LaTeX-rendered signal quations in the [DSP_Signal_Equations.ipynb](DSP_Signal_Equations.ipynb) notebook.
 
 ## 📷 Example Outputs
 
 Each script generates and plots a waveform. Add the output images in the respective directory and name them as follows:
-
+### SINE
 <img src="assets/sine.png" alt="sin" />
+
+---
+
+### COSINE
 <img src="assets/cosine.png" alt="cos" />
-<img src="assets/exponetial.png" alt="exp" />
+
+---
+
+### EXPONENTIAL
+<img src="assets/exponential.png" alt="exp" />
+
+---
+
+### RAMP
 <img src="assets/ramp.png" alt="ramp" />
+
+---
+
+### RECTANGULAR
 <img src="assets/rectangular.png" alt="rect" />
+
+---
+
+### IMPULSE
 <img src="assets/impulse.png" alt="impulse" />
+
+---
+
+### BIPOLAR
 <img src="assets/bipolar.png" alt="bipolar" />
+
+---
+
+### TRIANGULAR
 <img src="assets/triangular.png" alt="triangle" />
 
+---
 ## 👤 Author
 
 Developed by [sreeramathrij](https://github.com/sreeramathrij)
