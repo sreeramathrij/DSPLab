@@ -54,7 +54,7 @@ To plot sine, cosine, ramp, exponential, impulse, rectangular, bipolar pulse and
 | `exponential.py`| Generates an exponential signal    |
 
 ## 📐 Signal Equations
-<img src="assets/experiment1eq.png" alt="sin" />
+<img src="assets/experiment1eq(1).png" alt="sin" />
 
 ## 📷 Example Outputs
 
@@ -96,6 +96,21 @@ Each script generates and plots a waveform. Add the output images in the respect
 
 ### TRIANGULAR
 <img src="assets/triangular.png" alt="triangle" />
+
+---
+
+### COMPOSITE
+<img src="assets/composite.png" alt="composite" />
+
+---
+
+### TRUNCATED
+<img src="assets/truncated.png" alt="truncated" />
+
+---
+
+### SINC
+<img src="assets/sinc.png" alt="sinc" />
 
 ---
 ## 👤 Author
