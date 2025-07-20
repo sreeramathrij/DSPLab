@@ -113,6 +113,62 @@ Each script generates and plots a waveform. Add the output images in the respect
 <img src="assets/sinc.png" alt="sinc" />
 
 ---
+
+# Experiment 2: Basic Time Functions on Signals
+
+## AIM:
+To plot shifting, scaling, reversing and their combination of elementary signals.
+
+| File                          | Description                                                 |
+|-------------------------------|-------------------------------------------------------------|
+| `basicOperationsContinuos.py` | Generates all the time functions in continuous time         |
+| `basicOperationsDiscrete.py`  | Generates all the time functions in discrete time           |
+| `impulseFromUnit.py`          | Generates a dirac delta function from unit step function    |
+| `inverseShiftedExponential.py`| Generates the $-(2^n) u(-n-1)$ signal                       |
+| `scaledRect.py`               | Generates the $rect(8t)$ and $rect(t / 8)$ signals          |
+| `scaledShiftedUnit.py`        | Generates the $u(-3t + 5)$ signal                           |
+
+## 📐 Signal Equations
+<img src="assets/experiment1eq(1).png" alt="sin" />
+
+## 📷 Example Outputs
+
+Each script generates and plots a waveform. Add the output images in the respective directory and name them as follows:
+### SINE
+<img src="assets/sine.png" alt="sin" />
+
+---
+
+### BASIC OPERATIONS (CONTINUOUS)
+<img src="assets/cosine.png" alt="cos" />
+
+---
+
+### BASIC OPERATIONS (DISCRETE)
+<img src="assets/exponential.png" alt="exp" />
+
+---
+
+### IMPULSE FROM UNIT
+<img src="assets/ramp.png" alt="ramp" />
+
+---
+
+### SCALED SHIFTED EXPONENTIAL
+<img src="assets/rectangular.png" alt="rect" />
+
+---
+
+### SCALED RECT
+<img src="assets/impulse.png" alt="impulse" />
+
+---
+
+### SCALED AND SHIFTED UNIT
+<img src="assets/bipolar.png" alt="bipolar" />
+
+---
+
 ## 👤 Author
 
 Developed by [sreeramathrij](https://github.com/sreeramathrij)
