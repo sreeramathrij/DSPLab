@@ -129,43 +129,37 @@ To plot shifting, scaling, reversing and their combination of elementary signals
 | `scaledShiftedUnit.py`        | Generates the $u(-3t + 5)$ signal                           |
 
 ## 📐 Signal Equations
-<img src="assets/experiment1eq(1).png" alt="sin" />
+<img src="assets/experiment2/experiment2.png" alt="All Experiment 2 Equations" />
 
 ## 📷 Example Outputs
 
-Each script generates and plots a waveform. Add the output images in the respective directory and name them as follows:
-### SINE
-<img src="assets/sine.png" alt="sin" />
-
----
-
 ### BASIC OPERATIONS (CONTINUOUS)
-<img src="assets/cosine.png" alt="cos" />
+<img src="assets/experiment2/basicOperationsContinuous.png" alt="basicOperationsContinuous" />
 
 ---
 
 ### BASIC OPERATIONS (DISCRETE)
-<img src="assets/exponential.png" alt="exp" />
+<img src="assets/experiment2/basicOperationsDiscrete.png" alt="basicOperationsDiscrete" />
 
 ---
 
 ### IMPULSE FROM UNIT
-<img src="assets/ramp.png" alt="ramp" />
+<img src="assets/experiment2/impulseFromUnit.png" alt="Impulse From Unit" />
 
 ---
 
 ### SCALED SHIFTED EXPONENTIAL
-<img src="assets/rectangular.png" alt="rect" />
+<img src="assets/experiment2/scaledShiftedExponential.png" alt="Scaled Shifted Exponential" />
 
 ---
 
 ### SCALED RECT
-<img src="assets/impulse.png" alt="impulse" />
+<img src="assets/experiment2/scaledRect.png" alt="Scaled Rect" />
 
 ---
 
 ### SCALED AND SHIFTED UNIT
-<img src="assets/bipolar.png" alt="bipolar" />
+<img src="assets/experiment2/scaledShiftedUnit.png" alt="Scaled Shifted Unit" />
 
 ---
 
