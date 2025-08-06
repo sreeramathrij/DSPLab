@@ -11,7 +11,7 @@ def convolve(x1, x2):
 
   return toplitz_matrix @ x1;
 x = [1, 2, 3, 4]
-h = [1, 2]
+h = [4, 3, 2, 1]
 
 n = np.arange(-10, 11)
 
