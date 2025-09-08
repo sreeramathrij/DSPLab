@@ -31,7 +31,7 @@ a[0].set_xlabel("Time");
 a[0].set_ylabel("Amplitude");
 
 a[1].stem(n, h(n));
-a[1].set_title("x(n) = {1, 2}");
+a[1].set_title("h(n) = {1, 2}");
 a[1].set_xlabel("Time");
 a[1].set_ylabel("Amplitude");
 
