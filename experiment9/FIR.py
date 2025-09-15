@@ -19,7 +19,7 @@ H = np.fft.fftshift(np.fft.fft(h, 1024))
 fig, ax = plt.subplots(3,1)
 
 ax[0].plot(t, x)
-ax[0].plot(t, y, linewidth=2)
+ax[0].plot(t, y, label="", linewidth=2)
 ax[0].set_title('Time-Domain Signals')
 ax[0].grid(True)
 
